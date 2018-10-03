@@ -8,6 +8,8 @@
   font-size: 20px;
   padding-top: 7.5px;
   padding-bottom: 7.5px;
+  margin-bottom: 40px;
+
 
 }
 .menu a {
@@ -55,33 +57,26 @@
 
 }
 
-.square {
-  display: flex;
-  float: left;
-  background-color: lightgrey;
-  width:350px;
-  height:300px;
-  margin-top: 40px;
-  margin-left: 70px;
-  margin-right: 20px;
-
+.content{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;
+  grid-column-gap: 50px;
+  grid-row-gap: 30px;
+  max-width: 1080px;
+  margin: 0 auto;
+  color: black;
+  text-align:center;
+}
+.content div{
+  background: #dddee0;
 }
 
-.textlayout {
-  padding-left:18%;
-  padding-right:15%;
-  font-size: 50px;
-  padding-top: 115px;
-  letter-spacing: 1px;
+.content a{
+  font-size: 40px;
+  
 }
-
-.textlayout p {
-  padding-top: 30px;
-  padding-left:45px;
-  padding-right:17%;
-  color: grey;
-  font-size: 25px;
-  height: 25px;
-  width: 150px;
-
+.content p {
+  font-size: 20px;
+  color: #b8babd;
 }

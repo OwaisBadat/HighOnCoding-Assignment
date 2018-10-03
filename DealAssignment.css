@@ -1,0 +1,14 @@
+
+.deal {
+    position: relative;
+    top: 135px;
+    left: 30px;
+    width: 200px;
+}
+.item {
+    position: absolute;
+    left: 30px;
+    top: -30;
+    width: 1000px;
+    z-index: -1;
+}
